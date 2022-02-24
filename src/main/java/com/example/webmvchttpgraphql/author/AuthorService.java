@@ -1,4 +1,4 @@
-package com.example.webmvchttpgraphql;
+package com.example.webmvchttpgraphql.author;
 
 public class AuthorService {
 }

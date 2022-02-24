@@ -1,2 +1,4 @@
-package com.example.webmvchttpgraphql.author;public class AuthorController {
+package com.example.webmvchttpgraphql.author;
+
+public class AuthorController {
 }

@@ -1,0 +1,22 @@
+type Query {
+  books: [Book]
+}
+type Mutation {
+  # restricted
+update(input: Request!): Response
+}
+type Book {
+id: ID!
+authorId: ID
+name: String
+publishDate: String
+}
+
+input Request{
+id: ID!
+name: String!
+}
+type Response {
+success: Boolean!
+book: Book
+}
